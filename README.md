@@ -1,33 +1,36 @@
 # PythonNumericalProjects
 
-**Repository Overview**  
-This repository contains a collection of Python-based numerical simulations and computational physics projects. Each project demonstrates the application of numerical methods, simulations, and visualization techniques for solving real-world physics problems.
+A collection of Python-based numerical simulations and computational physics projects demonstrating applied methods in simulations, numerical integration, and visualization.
 
 ---
 
-## Projects Included
+## Projects
 
-### 1. Simulation of Planetary Motion Using Euler Method
-**Objective:**  
-Simulate the motion of a planet orbiting a star using the Euler method, visualizing the orbit and understanding the limitations of this numerical approach.  
+**1. Simulation of Planetary Motion Using Euler Method**  
+Simulates a planet orbiting a star under Newtonian gravity using the Euler method. Visualizes the orbital path and demonstrates numerical error accumulation over time.
 
-**Description:**  
-- Implements Newtonian gravity to compute accelerations.  
-- Updates position and velocity of the planet stepwise using the Euler method.  
-- Visualizes the orbital path of the planet around the star.  
+**2. Analysis of How an Object Orients in 3D Space**  
+Simulates the rotation of a rigid 3D object (cube) using rotation matrices, Euler angles, and quaternions. Includes plots of angles/quaternions and an animated 3D rotation.
 
-**Python Files/Notebook:**  
-- `Planetary_Motion_Euler.ipynb`  
+**3. Calculating Ground State Energy of Harmonic Oscillator (Variational Quantum Monte Carlo)**  
+Uses a variational Monte Carlo method to estimate the ground state energy of a 1D harmonic oscillator. Computes local energy for a trial wavefunction and finds the optimal variational parameter.
 
-**Dependencies:**  
-```bash
-numpy
-matplotlib
-numpy
-matplotlib
-scipy
-numpy
-matplotlib
-numpy
-matplotlib
+**4. Damped Driven Pendulum Simulation**  
+Simulates the dynamics of a damped and driven pendulum using numerical integration (Euler/Runge-Kutta). Visualizes periodic, quasi-periodic, and chaotic motion.
+
+---
+
+## Usage
+
+- Open the corresponding Jupyter notebooks in Google Colab or Jupyter Notebook.  
+- Run all cells to reproduce simulations, plots, and animations.  
+
+---
+
+## Dependencies
+
+- Python 3.x  
+- numpy  
+- matplotlib  
+- scipy (for some projects)  
 
