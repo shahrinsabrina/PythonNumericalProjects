@@ -23,3 +23,11 @@ Simulate the motion of a planet orbiting a star using the Euler method, visualiz
 ```bash
 numpy
 matplotlib
+numpy
+matplotlib
+scipy
+numpy
+matplotlib
+numpy
+matplotlib
+
