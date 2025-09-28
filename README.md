@@ -2,7 +2,6 @@
 
 A collection of Python-based numerical simulations and computational physics projects demonstrating applied methods in simulations, numerical integration, and visualization.
 
----
 
 ## Projects
 
@@ -18,14 +17,14 @@ Uses a variational Monte Carlo method to estimate the ground state energy of a 1
 **4. Damped Driven Pendulum Simulation**  
 Simulates the dynamics of a damped and driven pendulum using numerical integration (Euler/Runge-Kutta). Visualizes periodic, quasi-periodic, and chaotic motion.
 
----
+
 
 ## Usage
 
 - Open the corresponding Jupyter notebooks in Google Colab or Jupyter Notebook.  
 - Run all cells to reproduce simulations, plots, and animations.  
 
----
+
 
 ## Dependencies
 
