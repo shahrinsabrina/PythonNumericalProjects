@@ -6,6 +6,7 @@ A collection of Python-based numerical simulations and computational physics pro
 ## Projects
 
 **1. Simulation of Planetary Motion Using Euler Method**
+
 Simulates a planet orbiting a star under Newtonian gravity using the Euler method. Visualizes the orbital path and demonstrates numerical error accumulation over time.
 
 **2. Analysis of How an Object Orients in 3D Space**  
